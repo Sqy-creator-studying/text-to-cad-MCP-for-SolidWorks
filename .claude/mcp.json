@@ -6,6 +6,13 @@
         "d:/text-to-cad/cad_module/mcp_servers/solidworks_mcp.py"
       ],
       "disabled": false
+    },
+    "catia": {
+      "command": "python",
+      "args": [
+        "d:/text-to-cad/cad_module/mcp_servers/catia_mcp.py"
+      ],
+      "disabled": false
     }
   }
 }
