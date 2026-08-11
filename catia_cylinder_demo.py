@@ -60,7 +60,7 @@ def create_cylinder_demo():
     viewer = window.ActiveViewer
     viewer.Reframe()
 
-    print("\n✓ Cylinder created successfully!")
+    print("\n[SUCCESS] Cylinder created successfully!")
     print("  - Diameter: 50mm")
     print("  - Height: 100mm")
 
@@ -68,7 +68,7 @@ if __name__ == "__main__":
     try:
         create_cylinder_demo()
     except Exception as e:
-        print(f"\n✗ Error: {e}")
+        print(f"\n[ERROR] Error: {e}")
         print("\nMake sure:")
         print("  1. CATIA is running")
         print("  2. You have pywin32 installed: pip install pywin32")
